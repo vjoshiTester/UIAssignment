@@ -1,0 +1,169 @@
+Feature: Google Search
+  Description : Google search a criteria, move to amazon and purchase
+
+  @GoogleSearch
+  Scenario Outline: Amazon search and buy                                                            [90m# GoogleSearch.feature:5[0m
+    [36mGiven [0m[36mI launch browser "chrome" in "GUI" and open "<URL>"[0m
+    [36mAnd [0m[36mI search the  "<Criteria>" on the 'Search' page[0m
+    [36mAnd [0m[36mI note down the search results[0m
+    [36mAnd [0m[36mI click on Amazon link[0m
+    [36mAnd [0m[36mI click on All button on search and select "<Category>" as category[0m
+    [36mAnd [0m[36mI search Product "<ProductSearch>" from the search bar[0m
+    [36mAnd [0m[36mI apply "<LowRange>" to "<HighRange>" as filter range[0m
+    [36mAnd [0m[36mValidate the products displayed on the screen are within "<LowRange>" to "<HighRange>" range[0m
+
+    Examples: below data set for data driven
+ ===============================================================================
+			   Start of Cucumber Test Features 
+ 
+			     Sun Dec 18 10:12:07 IST 2022
+ ===============================================================================
+
+
+********************************
+Driver execution mode during instantiating WebDriver object --> GUI
+********************************
+
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 37201
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 18, 2022 10:12:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+*********Search result is Accessibility help
+*********Search result is Sign in
+*********Search result is Shopping
+*********Search result is News
+*********Search result is Images
+*********Search result is Books
+*********Search result is Shop Online on Amazon - Get the best deals on Amazon
+Amazon.in
+https://www.amazon.in
+*********Search result is No Cost EMI offers
+*********Search result is Exciting exchange offers
+*********Search result is Amazon Brands
+*********Search result is Buy books on Amazon
+*********Search result is Amazon.in
+Amazon.in
+https://www.amazon.in
+*********Search result is More results from amazon.in »
+*********Search result is Sparrow: Bird's-eye view of Amazon's future
+1 day ago
+*********Search result is Super deal! iPhone 12 price cut from 65900 to 34849 on Amazon
+17 hours ago
+*********Search result is Delhi Acid Attack: DCW issues notice to Amazon, Flipkart for selling `Acid` online - Details Inside
+1 hour ago
+*********Search result is Christmas Gifting 2022: Here are the tech gifting idea from Amazon’s Christmas Shopping Store
+15 hours ago
+*********Search result is More news
+*********Search result is Amazon.com: All Departments
+Amazon.com
+https://www.amazon.com › ...
+*********Search result is Amazon.jobs: Help us build Earth's most customer-centric ...
+Amazon.jobs
+https://www.amazon.jobs
+*********Search result is Amazon.com Sign up for Prime Video
+Prime Video
+https://www.primevideo.com
+*********Search result is Amazon (company)
+Wikipedia
+https://en.wikipedia.org › wiki › Amazon_(company)
+*********Search result is About Amazon
+About Amazon
+https://www.aboutamazon.com
+*********Search result is Amazon
+Twitter
+https://twitter.com › amazon
+*********Search result is Walmart
+*********Search result is Target Corporation
+*********Search result is Best Buy
+*********Search result is Wayfair
+*********Search result is See more
+*********Search result is Feedback
+*********Search result is amazon prime
+*********Search result is amazon shopping
+*********Search result is amazon.in login
+*********Search result is amazon prime video
+*********Search result is amazon jobs
+*********Search result is amazon sale
+*********Search result is amazon download
+*********Search result is amazon customer service
+*********Search result is 201014, Ghaziabad, Uttar Pradesh - From your IP address
+*********Price range displayed in Rs********** 46,099
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 29,999
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 30,021
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 22,340
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 30,705
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 41,050
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 36,899
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 34,839
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 33,099
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 30,999
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 48,950
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 39,000
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 36,790
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 41,290
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 39,490
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 33,990
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 33,287
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 33,099
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 42,012
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 33,599
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 31,999
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 36,990
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 39,990
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 45,500
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 19,490
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 41,900
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 39,990
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 33,498
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 44,490
+Price displayed are falling in the range
+*********Price range displayed in Rs********** 33,500
+Price displayed are falling in the range
+  
+  ****   test scenario : 'Amazon search and buy' is passed   **** 
+
+  @GoogleSearch
+  Scenario Outline: Amazon search and buy                                                 [90m# GoogleSearch.feature:17[0m
+    [32mGiven [0m[32mI launch browser "[0m[32m[1mchrome[0m[32m" in "[0m[32m[1mGUI[0m[32m" and open "[0m[32m[1mGOOGLE[0m[32m"[0m                            [90m# GeneralSteps.iLaunchBrowserAndOpenURLWithHeadless(String,String,String)[0m
+    [32mAnd [0m[32mI search the  "[0m[32m[1mAmazon[0m[32m" on the 'Search' page[0m                                       [90m# GeneralSteps.searchOnThePage(String)[0m
+    [32mAnd [0m[32mI note down the search results[0m                                                    [90m# GeneralSteps.noteDownSearchResuls()[0m
+    [32mAnd [0m[32mI click on Amazon link[0m                                                            [90m# GeneralSteps.clickTheLink()[0m
+    [32mAnd [0m[32mI click on All button on search and select "[0m[32m[1mElectronics[0m[32m" as category[0m              [90m# GeneralSteps.selectCategory(String)[0m
+    [32mAnd [0m[32mI search Product "[0m[32m[1mDell Computers[0m[32m" from the search bar[0m                             [90m# GeneralSteps.searchProduct(String)[0m
+    [32mAnd [0m[32mI apply "[0m[32m[1m30000[0m[32m" to "[0m[32m[1m50000[0m[32m" as filter range[0m                                        [90m# GeneralSteps.applyRange(String,String)[0m
+    [32mAnd [0m[32mValidate the products displayed on the screen are within "[0m[32m[1m30000[0m[32m" to "[0m[32m[1m50000[0m[32m" range[0m [90m# GeneralSteps.validateProductRange(String,String)[0m
+
+1 Scenarios ([32m1 passed[0m)
+8 Steps ([32m8 passed[0m)
+1m11.750s
+
